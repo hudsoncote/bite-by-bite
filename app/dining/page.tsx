@@ -4,7 +4,7 @@ export default function DiningPage() {
   return (
     <div>
       <h1 className="text-3xl font-bold">Dining</h1>
-      <p className="mt-1 opacity-80">
+      <p className="mt-2 opacity-80">
         yum
       </p>
       <ul className="mt-3 grid gap-4 max-w-xs">
