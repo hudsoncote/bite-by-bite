@@ -7,7 +7,7 @@ export default function DiningPage() {
       <p className="mt-2 opacity-80">
         yum
       </p>
-      <ul className="mt-3 grid gap-4 max-w-xs">
+      <ul className="mt-4 grid gap-4 max-w-xs">
         {halls.map((hall) => (
           <li key={hall} className="border border-gray-300/50 p-4">
             <h2 className="font-semibold">{hall}</h2>

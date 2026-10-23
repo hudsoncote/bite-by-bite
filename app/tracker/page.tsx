@@ -5,7 +5,7 @@ export default function TrackerPage() {
       <p className="mt-2 opacity-80">
         placeholder description
       </p>
-      <div className="mt-6 border border-dashed border-gray-300/50 p-8 text-center opacity-70">
+      <div className="mt-4 border border-dashed border-gray-300/50 p-6 text-center opacity-70">
         nothing logged yet
       </div>
     </div>

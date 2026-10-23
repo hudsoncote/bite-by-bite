@@ -10,13 +10,13 @@ export default function Home() {
       <div className="mt-4 flex gap-3">
         <Link
           href="/dining"
-          className="border border-gray-300/50 px-4 py-2 font-medium hover:bg-gray-500/10"
+          className="border border-gray-300/50 px-4 py-2 font-medium hover:bg-gray-500/20"
         >
           View dining halls
         </Link>
         <Link
           href="/tracker"
-          className="border border-gray-300/50 px-4 py-2 font-medium hover:bg-gray-500/10"
+          className="border border-gray-300/50 px-4 py-2 font-medium hover:bg-gray-500/20"
         >
           Open tracker
         </Link>
