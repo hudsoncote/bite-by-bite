@@ -13,7 +13,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <header className="border-b border-grey bg-white">
+    <header className="fixed w-full border-b border-grey bg-white">
       <Container className="flex items-center justify-between py-4">
         <Link href="/" className="text-xl font-semibold tracking-tight text-main-green">
           Bite by Bite
