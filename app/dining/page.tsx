@@ -4,7 +4,7 @@ const halls = ["Earhart", "Ford", "Hillenbrand", "Wiley", "Windsor"];
 
 export default function DiningPage() {
   return (
-    <Container>
+    <Container className="pb-16">
       <h1 className="mt-4 text-3xl font-semibold tracking-tight">Dining Halls</h1>
       
       <div className="mt-4 grid grid-cols-1 lg:grid-cols-3 gap-6">

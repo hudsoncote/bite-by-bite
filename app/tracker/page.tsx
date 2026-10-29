@@ -39,7 +39,7 @@ const inputStyle =
 
 export default function TrackerPage() {
   return (
-    <Container className="flex flex-col gap-4">
+    <Container className="flex flex-col gap-4 pb-16">
       <h1 className="mt-4 text-3xl font-semibold tracking-tight">Tracking</h1>
       
       <section className="rounded-3xl bg-light-grey p-4">
