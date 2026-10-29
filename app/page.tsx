@@ -24,7 +24,7 @@ const features = [
   {
     title: "picks made for you",
     description:
-      "see personalized recommendations based on your filters and past meals. use the dashboard to view your daily and weekly progress",
+      "see personalized recommendations based on your filters and past meals. use the dashboard to view your daily and weekly progress.",
     buttonLabel: "Open dashboard",
     buttonLink: "/dining",
     tone: "bg-blue",
@@ -103,9 +103,9 @@ export default function Home() {
               <br />
               so i made this app to help students like me manage their diets at Purdue!<br />
               <br />
-              if you're recovering, or have special dietary needs, or if you're just trying to eat healthier, i hope this makes things easier<br />
+              if you have special dietary needs, or if you're just trying to eat healthier, i hope this makes things easier<br />
               <br />
-              it's ok to slow down, and it's ok to take things bite by bite<br />
+              and if you're recovering, remember it's ok to take things bite by bite<br />
               <br />
               -hudson cote & haasini some // launchpad '26
             </p>
