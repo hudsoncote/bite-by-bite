@@ -8,15 +8,20 @@ export default function DiningPage() {
       <h1 className="mt-4 text-3xl font-semibold tracking-tight">Dining Halls</h1>
       
       <div className="mt-4 grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <div className="lg:col-span-1">
+        <div className="lg:col-span-1">
           <ul className="flex flex-col gap-4">
             {halls.map((hall) => (
-              <li key={hall} className="rounded-3xl bg-light-grey p-4 transition-colors hover:bg-grey">
-                <h2 className="text-lg font-semibold">{hall}</h2>
-                <p className="mt-1 flex items-center gap-2 text-sm opacity-70">
-                  <span className="h-2.5 w-2.5 rounded-full bg-main-green"/>
-                  Open, closes at placeholder time
-                </p>
+              <li key={hall}>
+                <button 
+                  type="button"
+                  className="w-full text-left rounded-3xl bg-light-grey p-4 transition-colors hover:bg-grey"
+                >
+                  <h2 className="text-lg font-semibold">{hall}</h2>
+                  <p className="mt-1 flex items-center gap-2 text-sm opacity-70">
+                    <span className="h-2.5 w-2.5 rounded-full bg-main-green"/>
+                    Open, closes at placeholder time
+                  </p>
+                </button>
               </li>
             ))}
           </ul>
